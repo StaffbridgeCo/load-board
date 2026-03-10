@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "vercel-build": "npm install --legacy-peer-deps && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.99.0",
