@@ -27,3 +27,28 @@ Row Level Security (RLS) is implemented in Supabase to ensure:
 - dispatchers only see loads they created
 - only dispatchers can create loads
 - only drivers can claim loads
+
+
+
+- ## Live Demo ------------------------------
+
+https://your-vercel-url.vercel.app
+
+## Setup
+
+1. Clone the repository
+
+git clone https://github.com/StaffbridgeCo/load-board
+
+2. Install dependencies
+
+npm install
+
+3. Create .env.local
+
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url  
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+
+4. Run development server
+
+npm run dev
