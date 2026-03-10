@@ -32,7 +32,7 @@ Row Level Security (RLS) is implemented in Supabase to ensure:
 
 - ## Live Demo ------------------------------
 
-https://your-vercel-url.vercel.app
+https://load-board-y38puplde-santiagocs-7073s-projects.vercel.app/login
 
 ## Setup
 
